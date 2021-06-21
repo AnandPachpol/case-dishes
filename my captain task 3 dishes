@@ -1,0 +1,21 @@
+#include<stdio.h>
+main()
+{int choice;
+printf("Enter any no. between 1 to 5\n\a");
+scanf("%d",&choice);
+switch(choice)
+{case 1:
+	printf("Burger \n@149 ");
+break;
+case 2:
+printf("Noodles\n@99 ");
+break;
+case 3:
+printf("Vada Pav\n@25")	;
+break;
+case 4:
+printf("Pizza \n@219");
+break;
+case 5:
+printf("Chicken lollipop \n@179");
+}
